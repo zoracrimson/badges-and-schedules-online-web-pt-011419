@@ -12,7 +12,7 @@ end
 
 
 def assign_rooms(attendees)
-  attendees.each_with_index { |name, room| puts "Hello, #{name}! You'll be assigned to room #{room}!"}
+  attendees.each_with_index { | name, index | puts "Hello, #{name}! You'll be assigned to room #{index}!"}
 end 
 
 def printer (attendees)
